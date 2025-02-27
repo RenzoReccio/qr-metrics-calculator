@@ -1,0 +1,10 @@
+services:
+  qr-service:
+    build: ./qr-service
+    ports:
+      - "3002:3002"
+
+  metrics-service:
+    build: ./metrics-service
+    ports:
+      - "3001:3001"
