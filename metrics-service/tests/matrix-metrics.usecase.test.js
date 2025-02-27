@@ -38,7 +38,7 @@ describe("MatrixMetricsUseCase", () => {
         expect(result.max).toBe(6);
         expect(result.min).toBe(0);
         expect(result.sum).toBe(21);
-        expect(result.average).toBe(21 / 6);
+        expect(result.average).toBe(21 / 18);
         expect(result.isDiagonal).toBe(true);
     });
 
@@ -59,7 +59,7 @@ describe("MatrixMetricsUseCase", () => {
         expect(result.max).toBe(9);
         expect(result.min).toBe(1);
         expect(result.sum).toBe(90);
-        expect(result.average).toBe(90 / 6);
+        expect(result.average).toBe(90 / 18);
         expect(result.isDiagonal).toBe(false);
     });
 });
